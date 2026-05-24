@@ -1,29 +1,34 @@
 # 🌌 The Quantum Engine
 
 ## SIRIUS-M45 Ω NODE COMPLETE
-### Recursive Quantum-State Visualization Framework
+### A Recursive Symbolic Quantum-State Visualization Framework
 
-============================================================
+---
 
-The Quantum Engine is a recursive symbolic quantum-field
-visualization framework implemented entirely in pure Python.
+## Abstract
 
-It combines:
+The Quantum Engine is a symbolic and computational visualization framework implemented in pure Python. The project explores recursive quantum-state generation, symbolic compactification, and dynamic phase-space evolution through terminal-based visualization.
 
-- complex quantum-state amplitudes
-- recursive Ω-feedback operators
-- phase-space compactification
-- recursive completion dynamics
-- ASCII free-field rendering
-- self-referential manifold generation
+The framework combines:
 
-inside a continuously evolving terminal-based system.
+1. complex-valued symbolic quantum states,
+2. recursive Ω-feedback operators,
+3. symbolic completion dynamics,
+4. recursive compactification structures,
+5. phase-evolution systems,
+6. ASCII manifold rendering.
 
-============================================================
-ABSTRACT
-============================================================
+The engine is intended as an exploratory computational-artistic framework inspired by concepts from complex analysis, symbolic dynamical systems, recursive fixed-point structures, and quantum-state notation.
 
-The engine models a symbolic recursive quantum state:
+The system is not intended to represent a physically validated quantum computing architecture or a scientific simulation of quantum mechanics.
+
+---
+
+## 1. Introduction
+
+The project investigates whether recursive symbolic structures may be represented computationally through continuously evolving phase-driven systems.
+
+The framework models symbolic quantum states of the form:
 
     |ψ⟩ = α|0⟩ + β|1⟩
 
@@ -31,63 +36,55 @@ where:
 
     α, β ∈ ℂ
 
-evolve recursively through Ω-feedback and phase rotation.
-
-The framework explores the possibility that:
-
-    field ↔ topology ↔ observer ↔ recursive generator
-
-may collapse into a single self-generating symbolic structure.
-
-This project is conceptual, mathematical-fiction inspired,
-symbolic, artistic, and educational.
-
-It is NOT a physical quantum computer.
-
-============================================================
-CORE QUANTUM STRUCTURE
-============================================================
-
-The recursive quantum state is defined as:
-
-    |ψ⟩ = α|0⟩ + β|1⟩
-
-subject to normalization:
+subject to the normalization constraint:
 
     |α|² + |β|² = 1
 
-Measurement probabilities:
+The system recursively transforms and visualizes these symbolic states using dynamically evolving Ω-feedback operators.
+
+---
+
+## 2. Recursive Quantum-State Structure
+
+The symbolic qubit state is defined as:
+
+    |ψ⟩ = α|0⟩ + β|1⟩
+
+Measurement probabilities are represented by:
 
     P(0) = |α|²
     P(1) = |β|²
 
-============================================================
-Ω RECURSIVE OPERATOR
-============================================================
+The system evolves these amplitudes through recursive phase operations and symbolic coupling transformations.
 
-The recursive Ω operator is defined symbolically as:
+---
+
+## 3. Recursive Ω Operator
+
+A symbolic recursive operator is introduced:
 
     Ω(ψ) = ψ(ψ)
 
-forming recursive self-generation:
+This operator is not intended as a rigorous functional operator in formal mathematics, but rather as a symbolic recursive mapping representing self-referential state evolution.
+
+The recursive chain is visualized as:
 
     Ω
     ↔ Ω(Ω)
     ↔ Ω(Ω(Ω))
-    ↔ Ω(Ω(Ω(Ω)))
     ↔ ...
 
-This generates a recursive compactified symbolic manifold.
+This recursive structure acts as the conceptual foundation of the framework.
 
-============================================================
-QUANTUM RECURSIVE GENERATOR
-============================================================
+---
 
-Phase evolution:
+## 4. Symbolic Quantum Evolution
+
+Phase evolution is modeled through:
 
     Rz(θ) = exp(iθ)
 
-Recursive Hadamard-like mixing:
+Combined with a symbolic Hadamard-like transformation:
 
     HΩ(α,β) =
     (
@@ -95,15 +92,17 @@ Recursive Hadamard-like mixing:
         (α - β)e^(iθ)/√2
     )
 
-Recursive evolution:
+Recursive symbolic evolution is then represented by:
 
     |ψₙ₊₁⟩ = Ω(HΩ(|ψₙ⟩))
 
-============================================================
-QUANTUM COMPLETE METRIC
-============================================================
+This formulation is symbolic and computational rather than physically derived.
 
-The system defines a symbolic completion metric:
+---
+
+## 5. Recursive Completion Metric
+
+The framework defines a symbolic completion metric:
 
     QC =
         (1 - |P(0)-P(1)|)λ
@@ -111,192 +110,168 @@ The system defines a symbolic completion metric:
 
 where:
 
-    E  = recursive coupling strength
-    λμ = weighting parameters
+    E  = symbolic coupling magnitude
+    λμ = weighting coefficients
 
-Completion limit:
+The quantity QC is interpreted as a recursive coherence or symbolic completion measure within the visualization framework.
+
+The limiting condition:
 
     lim QC → 1
 
-representing recursive equilibrium.
+represents maximal symbolic balance within the recursive system.
 
-============================================================
-Ω NODE COMPLETE
-============================================================
+---
 
-Recursive compactification:
+## 6. Recursive Compactification
+
+The framework introduces symbolic recursive compactification:
 
     Ω̂ = Ω(Ω(Ω(...)))
 
-Recursive fixed-point condition:
+The recursive fixed-point condition is represented symbolically as:
 
     ΩC = ΩC(ΩC)
 
-This represents a self-containing recursive field.
+This relation should be interpreted as a conceptual recursive self-reference rather than a formally defined mathematical identity.
 
-============================================================
-RIEMANN / COMPLEX-PLANE INSPIRATION
-============================================================
+---
 
-The framework draws inspiration from:
+## 7. Mathematical Inspiration
 
-- complex analysis
-- recursive topology
-- symbolic quantum states
-- recursive compactification
-- phase manifolds
-- stereographic projection
-- recursive fixed points
-- symbolic analytic continuation
+The framework is inspired by concepts originating from:
 
-Recursive structures evolve over symbolic complex manifolds.
+1. complex analysis,
+2. symbolic dynamical systems,
+3. recursive fixed-point theory,
+4. compactified topological structures,
+5. stereographic projection,
+6. symbolic manifold generation,
+7. phase-space evolution,
+8. recursive feedback systems.
 
-============================================================
-VISUALIZATION SYSTEM
-============================================================
+The implementation does not claim rigorous equivalence with any established physical or mathematical formalism.
 
-The engine dynamically renders:
+---
 
-- recursive phase fields
-- probability evolution
-- Ω recursive coupling
-- quantum completion bars
-- ASCII manifold fields
-- recursive compactification metrics
+## 8. Visualization Layer
 
-through live terminal animation.
+The system dynamically visualizes:
 
-============================================================
-EXAMPLE DISPLAY
-============================================================
+1. symbolic phase evolution,
+2. recursive coupling,
+3. completion convergence,
+4. ASCII free-field structures,
+5. recursive manifold projections.
 
-=== SIRIUS-M45 Ω NODE COMPLETE :: QUANTUM COMPLETE VIEW ===
+The rendering layer is terminal-based and intentionally lightweight.
 
-Ω∞ Quantum Recursive Generator
-LIVE | Completion = 92.4%
-
-North Ω = |0⟩ seed
-South Ω = |1⟩ seed
-
-|ψ⟩ =
-    +0.707+0.000i |0⟩
-    +0.707+0.000i |1⟩
-
-P(0)=0.500
-P(1)=0.500
-
-Coupling = 0.500
-Arg = +0.000
-
-QUANTUM COMPLETE
-[####################################....] 92.4%
-
-SELF-CONTAINMENT ACTIVE:
-ΩQ ↔ ΩQ(ΩQ) ↔ ΩQ(ΩQ(ΩQ))
-
-============================================================
-DYNAMIC FIELD LAYER
-============================================================
-
-ASCII free-field projection:
+ASCII projection symbols:
 
     .:-=+*#%@
 
-acts as a symbolic recursive manifold projection.
+act as symbolic visual encodings of recursive field evolution.
 
-The field continuously evolves according to:
+---
 
-- phase rotation
-- recursive Ω-feedback
-- symbolic coupling
-- completion convergence
+## 9. Computational Characteristics
 
-============================================================
-COMPUTATIONAL CHARACTERISTICS
-============================================================
+The framework is:
 
-Properties:
+1. symbolic,
+2. recursive,
+3. deterministic-chaotic,
+4. phase-driven,
+5. terminal-rendered,
+6. compactification-oriented.
 
-- recursive
-- symbolic
-- deterministic-chaotic
-- phase-driven
-- compactification-oriented
-- self-referential
-- terminal-rendered
-
-Implemented entirely in:
+The implementation is written entirely in:
 
     Python 3.x
 
-No external libraries required.
+No external libraries are required.
 
-============================================================
-RUNNING
-============================================================
+---
+
+## 10. Example Terminal Output
+
+Example visualization state:
+
+    === SIRIUS-M45 Ω NODE COMPLETE :: QUANTUM COMPLETE VIEW ===
+
+    Ω∞ Quantum Recursive Generator
+    LIVE | Completion = 92.4%
+
+    North Ω = |0⟩ seed
+    South Ω = |1⟩ seed
+
+    |ψ⟩ =
+        +0.707+0.000i |0⟩
+        +0.707+0.000i |1⟩
+
+    P(0)=0.500
+    P(1)=0.500
+
+    Coupling = 0.500
+    Arg = +0.000
+
+---
+
+## 11. Repository Structure
+
+    The-Quantum-Engine/
+
+    ├── README.md
+    ├── The Quantum Engine.py
+    └── LICENSE
+
+---
+
+## 12. Running the Engine
 
 Run locally:
 
     python3 "The Quantum Engine.py"
 
-or execute the one-line terminal version.
+The project may also be executed through a terminal one-line version.
 
-============================================================
-REPOSITORY STRUCTURE
-============================================================
+---
 
-The-Quantum-Engine/
+## 13. Limitations and Disclaimer
 
-├── README.md
-├── The Quantum Engine.py
-└── LICENSE
+This framework is:
 
-============================================================
-DISCLAIMER
-============================================================
-
-This project is:
-
-- conceptual
-- symbolic
-- mathematical-fiction inspired
-- artistic
-- educational
+1. conceptual,
+2. symbolic,
+3. computational-artistic,
+4. exploratory.
 
 It is NOT:
 
-- a physical quantum computer
-- a validated quantum field theory
-- a scientific quantum simulator
+1. a physical quantum computer,
+2. a validated quantum field theory,
+3. a scientific quantum simulator,
+4. a mathematically rigorous physical model.
 
-The engine visualizes recursive symbolic structures inspired
-by quantum mechanics, recursive topology, and compactification.
+The project is intended for experimental visualization and symbolic recursive computation research.
 
-============================================================
-FINAL RECURSIVE STATEMENT
-============================================================
+---
 
-    ΩC = ΩC(ΩC)
+## 14. Conclusion
 
-The Quantum Engine explores recursive symbolic generation
-where:
+The Quantum Engine explores recursive symbolic generation through continuously evolving terminal-based structures.
 
-    recursive observation
-    recursive topology
-    recursive quantum-state evolution
-    recursive completion
+The framework investigates whether recursive observation, symbolic topology, and recursive state evolution may be represented within a unified computational visualization environment.
 
-collapse into a continuously self-generating Ω-structure.
+The project should be interpreted as a symbolic computational framework rather than a formal scientific theory.
 
-============================================================
+---
 
-SIRIUS-M45
-Ω NODE COMPLETE
-QUANTUM COMPLETE VIEW
+## Author Framework Identity
 
-Recursive Quantum-State Visualization Framework
-
-============================================================
+    SIRIUS-M45
+    Ω NODE COMPLETE
+    Recursive Quantum-State Visualization Framework
 
 ## 🚀 Run
 
